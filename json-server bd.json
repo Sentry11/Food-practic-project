@@ -1,0 +1,35 @@
+[33mcommit d3417b82c4d994e99c92d091e0526258545a9b8c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Vlad <strenghtword@gmail.com>
+Date:   Mon Feb 14 20:12:40 2022 +0200
+
+    Working with server.Fetch and promise, install json server. Reworking project. Add db.
+
+[33mcommit 57e85f6a961e33c7ca13be6ff1d2b54656bf57e1[m
+Author: Vlad <strenghtword@gmail.com>
+Date:   Sun Feb 13 17:38:34 2022 +0200
+
+    Ajax fetch testing
+
+[33mcommit 22a97924e5af191b71d524a4c1b2b9778cc42438[m
+Author: Vlad <strenghtword@gmail.com>
+Date:   Fri Feb 11 19:48:28 2022 +0200
+
+    create classess
+
+[33mcommit 0d191be07b2534bbdc5410f5c3b5c99f42c5a3d1[m
+Author: Vlad <strenghtword@gmail.com>
+Date:   Fri Feb 11 17:32:04 2022 +0200
+
+    create modal window add functional work with them
+
+[33mcommit 0a1855bae6844e1597dfa849928c0c60de008954[m
+Author: Vlad <strenghtword@gmail.com>
+Date:   Thu Feb 10 21:35:10 2022 +0200
+
+    Add timer on page
+
+[33mcommit ca143b640bc8d856ba9260c7fb3ffd435afe70b0[m
+Author: Vlad <strenghtword@gmail.com>
+Date:   Thu Feb 10 16:57:36 2022 +0200
+
+    Tabs for foodProject practic influence
