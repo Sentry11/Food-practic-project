@@ -1,10 +1,11 @@
 /*jshint esversion: 8 */ 
 
 import {closeModal, openModal} from './modal';
-function forms(modalTimerId) {
+import {postData} from '..services/services';
+function forms(formSelector, modalTimerId) {
 // Forms
 
-const forms = document.querySelectorAll('form');
+const forms = document.querySelectorAll(formSelector);
 const message = {
     loading: 'img/form/spinner.svg',
     success: 'Спасибо! Скоро мы с вами свяжемся',
@@ -15,19 +16,7 @@ forms.forEach(item => {
     bindpostData(item);
 });
 
-const postData = async (url, data) => {
-      const res = await fetch(url, {
-        method: 'POST',
-        headers:{
-            'content-type': 'application/json'
-        },
-        body : data
-      });
 
-
-      return await res.json();
-
-};
 
 function bindpostData(form) {
     form.addEventListener('submit', (e) => {
